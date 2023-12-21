@@ -1,0 +1,10 @@
+.service {
+    transition: transform 0.3s ease-in-out;
+    position: relative;
+    border-bottom: 2px solid transparent; /* Initial transparent border bottom */
+  }
+
+  .service:hover {
+    transform: translateY(-10px); /* Move the card up on hover */
+    border-bottom: 2px solid #007bff; /* Blue border bottom on hover */
+  }
